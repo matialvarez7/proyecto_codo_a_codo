@@ -1,30 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/f7fb471b65.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f7fb471b65.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
     <title>CAC-MOVIES</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-        <nav class="navegacion">
-            <a href="" class="anclaLogo">
-                <i class="fas fa-film" aria-hidden="true"></i>
-                <span>CAC-Movies</span>
-            </a>
-            <ul class="listaNav">
-                <li class="listaItem"><a href="#" class="linkNav">Tendencias</a></li>
-                <li class="listaItem"><a href="#" class="linkNav">Registrarse</a></li>
-                <li class="listaItem"><a href="#" class="linkNav iniciarSesion">Iniciar sesion</a></li>
-            </ul>
-        </nav>
+      <nav class="navegacion">
+        <a href="" class="anclaLogo">
+          <i class="fas fa-film" aria-hidden="true"></i>
+          <span>CAC-Movies</span>
+        </a>
+        <ul class="listaNav">
+          <li class="listaItem"><a href="#" class="linkNav">Tendencias</a></li>
+          <li class="listaItem"><a href="#" class="linkNav">Registrarse</a></li>
+          <li class="listaItem">
+            <a href="#" class="linkNav iniciarSesion">Iniciar sesion</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    
-</body>
+
+    <main>
+      <section id="buscar">
+        <h2>¿Qué estás buscando para ver?</h2>
+        <label for="busqueda">Buscar:</label>
+        <input type="text" id="busqueda" name="busqueda" />
+        <button>Buscar</button>
+      </section>
+      <section id="tendencias">
+        <h2>Las tendencias de hoy</h2>
+        <div>
+          <!-- Aquí van las películas -->
+        </div>
+        <div>
+          <button>Anterior</button>
+          <button>Siguiente</button>
+        </div>
+      </section>
+      <section id="servicios">
+        <h2>Las más aclamadas</h2>
+        <div>
+          <!-- Aquí van las películas más aclamadas -->
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="">Términos y condiciones</a></li>
+        <li><a href="">Preguntas frecuentes</a></li>
+        <li><a href="">Ayuda</a></li>
+        <li><a href="">Administrador Películas</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
