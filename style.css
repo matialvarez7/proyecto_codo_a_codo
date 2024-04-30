@@ -208,6 +208,32 @@ footer {
   }
 }
 
+/*REGISTRO*/
+
+.bodyRegistrarse{
+  height: 100vh;
+  background: linear-gradient(to right top, #24242473, #24242473);
+  background-size: cover;
+  background-position: center;
+}
+
+.headerRegistrarse{
+  color: #ffffff;
+  height: 8vh;
+  padding: 30px;
+
+  .anclaLogo {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
+
+.main{
+  display: block;
+}
+
 /* estilos para header mobile y tablet */
 
 @media (max-width: 768px) {
