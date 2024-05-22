@@ -13,13 +13,15 @@
     </header>
     <main id="main" class="main">
         <section>
-            <form action="get">
+            <form id ="formInicioSesion" action="get">
                 <h2>Iniciar sesion</h2>
                 <div>
                     <input type="email" placeholder="Email" id="email" name="email">
+                    <span id="email-error" class="error"></span>
                 </div>
                 <div>
                     <input type="password" placeholder="Contraseña" id="password" name="password">
+                    <span id="password-error" class="error"></span>
                 </div>
                 <div>
                     <input type="submit" value="Iniciar sesion">
